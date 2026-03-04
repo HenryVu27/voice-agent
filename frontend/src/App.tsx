@@ -1,9 +1,7 @@
+import { ConversationPage } from "@/pages/ConversationPage";
+
 function App() {
-  return (
-    <div className="flex items-center justify-center h-screen">
-      <h1 className="text-2xl font-semibold tracking-tight">VoiceBridge</h1>
-    </div>
-  )
+  return <ConversationPage />;
 }
 
-export default App
+export default App;
